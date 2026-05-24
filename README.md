@@ -103,9 +103,9 @@ The dataset includes the following important fields:
 * Created calculated columns and DAX measures
 * Optimized dataset for dashboard performance
 
-* Calculated Columns
+        Calculated Columns
 
-        Age Groups = IF('UPI Transactions'[CustomerAge]<=25, "A1", 
+        1. Age Groups = IF('UPI Transactions'[CustomerAge]<=25, "A1", 
                      IF('UPI Transactions'[CustomerAge]<=35,"A2", "A3"))
 
 ## 3️⃣ KPI Development
